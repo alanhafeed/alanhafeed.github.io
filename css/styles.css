@@ -31,7 +31,7 @@ body{
 
 nav{
     flex: 1;
-    padding-left: 1400px;
+    padding-left: 1300px;
 }
 
 nav ul li{
@@ -48,7 +48,7 @@ nav ul li a{
 
 .content h1{
     position: absolute;
-    right: 650px;
+    right: 500px;
     bottom: 500px;
     font-size: 150px;
     font-weight: 100;
@@ -59,7 +59,7 @@ nav ul li a{
 
 .content h2{
     position: absolute;
-    right: 680px;
+    right: 500px;
     bottom: 400px;
     font-size: 90px;
     font-weight: 100;
