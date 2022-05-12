@@ -47,20 +47,16 @@ nav ul li a{
 }
 
 .content h1{
-    position: absolute;
-    right: 500px;
-    bottom: 500px;
+    text-align: center;
     font-size: 150px;
     font-weight: 100;
-    margin-top: 25px;
+    margin-top: 100px;
     margin-bottom: 15px;
     color: white;
 }
 
 .content h2{
-    position: absolute;
-    right: 500px;
-    bottom: 400px;
+    text-align: center;
     font-size: 90px;
     font-weight: 100;
     margin-top: 25px;
