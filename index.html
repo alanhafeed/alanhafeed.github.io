@@ -4,40 +4,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Alan's Portfolio </title>
     <link rel='stylesheet' href='css/styles.css'>
-</head> 
+</head>
+
+<script type="text/javascript" src="main.js"></script>
+
 <body>
-    <div class="desktop">
-        <div class="Documents Icon">
+    <audio id="startupSound" src="sounds/startup.wav"></audio>
+    <script>
+        window.onload = function() {
+          var audio = document.getElementById("startupSound");
+          audio.play();
+        };
+    </script>
+    <div class="desktop"> 
+        <div class="icon documents clicked" onclick="window.open(' https://github.com/alanhafeed')">
             <img src="images/documents.png">
             <div class="icon-name">Alan Hafeed</div>
         </div>
-        <div class="icon my-computer">
+        <div class="icon projects clicked" onclick="window.location.href='project.html';">
             <img src="images/monitor.png">
             <div class="icon-name">My Projects</div>
         </div>
-        <div class="icon my-network">
+        <div class="icon1 information clicked" onclick="window.open('https://www.linkedin.com/in/alan-hafeed-b3793a239/')">
             <img src="images/network.png">
             <div class="icon-name">My Information</div>
         </div>
-        <div class="icon recycle-bin">
+        <div class="icon2 recycle clicked">
             <img src="images/recycle.png">
             <div class="icon-name">Recycle Bin</div>
         </div>
-    </div>
-
-    <div class="taskbar">
-        <!-- <div class="start-button"><img src="images/logo.svg"> start</div> -->
-
-        <div class="opened-tabs">
-            <div class="open-tab" onclick="window.open('https://faisalakhtar.github.io/')"><img src="images/documents.png"> Faisal Akhtar</div>
-            <div class="open-tab" onclick="window.open('https://github.com/faisalAkhtar/')"><img src="images//monitor.png"> My Computer</div>
-            <div class="open-tab" onclick="window.open('https://twitter.com/faisallakhtarr/')"><img src="images/network.png"> My Network</div>
-            <div class="open-tab readme active"><img src="images/documents.png"> ReadME.txt</div>
-        </div>
-
-        <div class="time">11:20 PM</div>
-    </div>
-        
+        <div class="taskbar"></div>
+        <div class="time"></div>
     </div>
 </body>
 </html>
