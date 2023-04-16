@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    z-index: 3;
 }
 
 .taskbar {
@@ -130,4 +131,23 @@ body {
     display: none;
     z-index: 3;
 }
+
+.welcome{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 4;
+}
   
+.guesticon{
+    position: absolute;
+    bottom: 10px;
+    left: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -56px;
+    display: none;
+    z-index: 3;
+}

@@ -10,6 +10,12 @@ function updateTime() {
     document.querySelector('.time').innerHTML = timeString;
 }
 
+function playSound() {
+    var sound = new Audio('sounds/startup.mp3');
+    console.log("balls");
+    sound.play();
+}
+
 // Call updateTime function every second
 setInterval(updateTime, 1000);
 
@@ -20,10 +26,12 @@ let isVisable = true;
 
 icon4.addEventListener('click', () => {
   if (isVisable) {
-    icon3.style.display = 'none';
-  } else {
     icon3.style.display = 'block';
+  } else {
+    icon3.style.display = 'none';
   }
   isVisable = !isVisable; // Toggle the state
 });
+
+
 
