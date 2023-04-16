@@ -12,3 +12,18 @@ function updateTime() {
 
 // Call updateTime function every second
 setInterval(updateTime, 1000);
+
+const icon4 = document.querySelector('.icon4');
+const icon3 = document.querySelector('#icon3');
+
+let isVisable = true;
+
+icon4.addEventListener('click', () => {
+  if (isVisable) {
+    icon3.style.display = 'none';
+  } else {
+    icon3.style.display = 'block';
+  }
+  isVisable = !isVisable; // Toggle the state
+});
+
