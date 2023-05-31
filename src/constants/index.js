@@ -1,28 +1,29 @@
 import {
-    mobile,
     backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
     css,
+    cpp,
+    csharp,
+    java,
+    python,
+    webgl,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    datafast,
+    honeywell,
+    honeywelproj,
+    worldmap,
+    database,
     carrent,
     jobit,
     tripguide,
     threejs,
+    frontend,
+    ittech,
+    gamedev,
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +43,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Frontend Developer",
+      icon: frontend,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "IT Technician",
+      icon: ittech,
+    },
+    {
+      title: "Game Developer",
+      icon: gamedev,
     },
   ];
   
@@ -67,6 +68,26 @@ import {
     {
       name: "CSS 3",
       icon: css,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "webgl",
+      icon: webgl,
     },
     {
       name: "JavaScript",
@@ -81,20 +102,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -104,67 +113,32 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "AI ML Base Air Traffic Communication Prediction",
+      company_name: "Honeywell",
+      icon: honeywell,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing a Machine Learning algorithm in Pytorch that learns from the communication sequence of past flights and predicts the future sequences for ATC Communications",
+        "Employed two distinct machine-learning models, we successfully addressed our problem using different methodologies. XGBoost, as well as a Random Forest Model",
+        "Participating in team meetings and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "IT Technician",
+      company_name: "Datafast",
+      icon: datafast,
+      iconBg: "#383E56", 
+      date: "May 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Playing a vital role in maintaining and troubleshooting computer systems and networks.",
+        "Diagnosing and resolve technical issues faced by users, ensuring their hardware and software operate smoothly.",
+        "Providing technical support and guidance to individuals and organizations, helping them navigate technological challenges.",
+        "Responsibilities include installing and configuring software, setting up new hardware, and ensuring data security measures are in place.",
       ],
     },
   ];
@@ -172,93 +146,77 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Alan is so poggers",
+      name: "Joshua Frisby",
+      designation: "Professor",
+      company: "Glendale Community College",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Honeywell’s AI/ML Base ATC Communication Prediction ",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Develop a ML algorithm that learns from the communication sequence of past flights and predicts the future sequences for ATC",
       tags: [
         {
-          name: "react",
+          name: "Pytorch",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "XGBoost",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Machine Learning",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: honeywelproj,
+      source_code_link: "https://github.com/YangHusurianto/honeywell-atc-ai",
     },
     {
-      name: "Job IT",
+      name: "Data Analysis: World Map of State Fragility",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This project examines the impact of U.S. involvement in foreign countries and evaluates its effects on both the United States and the countries they are engaged with. It utilizes a dataset called State Fragility that provides index scores for countries in two key categories: Effectiveness and Legitimacy. These categories are further divided into four dimensions: Security, Political, Economic, and Social Effectiveness/Legitimacy. The index score is determined by combining the effectiveness score and the legitimacy score of each country.",
       tags: [
         {
-          name: "react",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Data Analysis",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "HTML/CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: worldmap,
+      source_code_link: "https://github.com/asu-cse494-s2022/Project-Matthew-Ahmed-Conner-Shaswat",
     },
     {
-      name: "Trip Guide",
+      name: "Politician Database",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive database of all politicians in the United States, with working search functionality and a user-friendly interface. As well as Add, Modify, and Delete functionality.",
       tags: [
         {
-          name: "nextjs",
+          name: "PythonFlask",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "pgAdmin",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: database,
+      source_code_link: "https://github.com/alanhafeed/Group50DatabaseProject",
     },
   ];
   
