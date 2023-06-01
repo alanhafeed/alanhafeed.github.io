@@ -32,6 +32,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mysql from "./tech/mysql.png";
+import pytorch from "./tech/pytorch.png";
+import r from "./tech/r.png";
+import postgre from "./tech/postgre.png";
+import rust from "./tech/rust.png";
+import lua from "./tech/lua.png";
 
 // job icons
 import meta from "./company/meta.png";
@@ -66,6 +72,12 @@ export {
   java,
   python,
   webgl,
+  mysql,
+  pytorch,
+  r,
+  postgre,
+  rust,
+  lua,
   docker,
   figma,
   git,

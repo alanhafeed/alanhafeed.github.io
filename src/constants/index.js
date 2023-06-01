@@ -9,6 +9,12 @@ import {
     java,
     python,
     webgl,
+    mysql,
+    pytorch,
+    r,
+    postgre,
+    rust,
+    lua,
     reactjs,
     nodejs,
     git,
@@ -112,6 +118,30 @@ import {
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
+    },
+    {
+      name: "pytorch",
+      icon: pytorch,
+    },
+    {
+      name: "r",
+      icon: r,
+    },
+    {
+      name: "postgre",
+      icon: postgre,
+    },
+    {
+      name: "rust",
+      icon: rust,
+    },
+    {
+      name: "lua",
+      icon: lua,
     },
   ];
   

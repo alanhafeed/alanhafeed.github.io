@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software engineer with 6+ years of coding experience.
+        I'm a skilled software engineer with over 6 years of coding experience. As a software engineer, my career objective is to continuously develop my skills and expertise in software development, while contributing to the creation of high-quality software products that meet customer needs.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
