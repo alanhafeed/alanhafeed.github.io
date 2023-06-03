@@ -129,8 +129,8 @@ import {
       iconBg: "#383E56",
       date: "August 2022 - May 2023",
       points: [
-        "Developing a Machine Learning algorithm in Pytorch that learns from the communication sequence of past flights and predicts the future sequences for ATC Communications",
-        "Employed two distinct machine-learning models, we successfully addressed our problem using different methodologies. XGBoost, as well as a Random Forest Model",
+        "Developing a Machine Learning algorithm in Pytorch that learns from the communication sequence of past flights and predicts the future sequences for ATC Communications.",
+        "Employed two distinct machine-learning models, we successfully addressed our problem using different methodologies. XGBoost, as well as a Random Forest Model.",
         "Participating in team meetings and providing constructive feedback to other developers.",
       ],
     },
