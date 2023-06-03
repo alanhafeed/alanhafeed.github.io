@@ -104,22 +104,6 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
       name: "mysql",
       icon: mysql,
     },
@@ -134,15 +118,7 @@ import {
     {
       name: "postgre",
       icon: postgre,
-    },
-    {
-      name: "rust",
-      icon: rust,
-    },
-    {
-      name: "lua",
-      icon: lua,
-    },
+    }
   ];
   
   const experiences = [
