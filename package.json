@@ -2,7 +2,7 @@
   "name": "alanhafeed.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://alanhafeed.github.io/alanhafeed.github.io",
+  "homepage": "https://alanhafeed.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
