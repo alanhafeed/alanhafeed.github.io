@@ -42,6 +42,10 @@ import {
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -204,7 +208,7 @@ import {
       source_code_link: "https://github.com/asu-cse494-s2022/Project-Matthew-Ahmed-Conner-Shaswat",
     },
     {
-      name: "Politician Database",
+      name: "Politician Database Web App",
       description:
         "A comprehensive database of all politicians in the United States, with working search functionality and a user-friendly interface. As well as Add, Modify, and Delete functionality.",
       tags: [
