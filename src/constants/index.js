@@ -18,6 +18,8 @@ import {
     reactjs,
     nodejs,
     git,
+    github,
+    linkedin,
     datafast,
     honeywell,
     honeywelproj,
@@ -48,7 +50,7 @@ import {
     {
       id: "contact",
       title: "Contact",
-    },
+    }
   ];
   
   const services = [
